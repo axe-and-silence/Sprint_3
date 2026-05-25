@@ -92,6 +92,8 @@ class OnlineSalesRegisterCollector:
         if twenty_percent_tax_calculation is not None and ten_percent_tax_calculation is not None:
             total = ten_percent_tax_calculation + twenty_percent_tax_calculation
             return total
+        else:
+            return None
 
 
     @staticmethod    
